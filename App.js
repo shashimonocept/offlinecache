@@ -3,9 +3,9 @@ import { View } from 'react-native';
 import NetInfo from "@react-native-community/netinfo";
 import LeadForm from './src/LeadForm';
 import LeadList from './src/LeadList';
-import { leadsVar } from './src/LeadOperation';  // importing the reactive var
 
-const App: React.FC = () => {
+
+const App= () => {
   // useEffect(() => {
   //   // Check for network status
   //   const unsubscribe = NetInfo.addEventListener((state: { isConnected: any; }) => {
